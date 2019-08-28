@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+      <title>Piemērs</title>
+    </head>
+    <body>
+      <script type="text/javascript">
+          var Janis = 5
+         // C=2πR
+        // https://www.uzdevumi.lv/p/matematika/9-klase/rinka-garums-laukums-2233/re-986c4601-d388-4c6d-b6da-60c63be0bacc
+        function rinkaLinija() {
+          const R = Number(prompt('Lūdzu ievadiet rādiusa garumu'));
+          const C = Math.PI * 2 * R
+          return `Riņķa līnijas garums ar rādiusu ${R} ir ${C.toFixed(4)} ${C}`;
+        }
+          function hipotenuza(a, b) {
+              return Math.sqrt(a * a + b * b);
+          }
+          function summa(a, b) {
+              console.log(a, b, Janis);
+              return a + b;
+          }
+          console.log(rinkaLinija(17));
+      </script>
+    </body>
+  </html>
